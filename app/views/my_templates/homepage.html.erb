@@ -60,14 +60,49 @@
 
 <!-- Write your form here -->
 
+<form action="/text">
+  <input name = "content">
+  <button>Go to QR Code</button>
+</form>
+
 <h3>URL</h3>
 
 <!-- Write your form here -->
+
+<form action = "/url">
+  <input name = "page">
+  <button>Go to QR Code</button>
+</form>
 
 <h3>Wifi network</h3>
 
 <!-- Write your form here -->
 
+<form action = "/wifi">
+  <label for = "ssid">Network Name:</label>
+  <input id = "ssid" name = "ssid" type = "text">
+  <br>
+  <label for = "pw">Network Password:</label>
+  <input id = "pw" name = "pw" type = "text">
+  <br>
+  <button>Go to QR Code</button>
+</form>
+
 <h3>Text message</h3>
+  <form action = "/sms">
+
+    <label for = "fono">Phone Number:</label>
+    <input id = "fono" name = "phone">
+
+    <br>
+
+    <label for = "txtmsg">Message:</label>
+    <input id = "txtmsg" name = "message">
+
+    <br>
+
+    <button>Go to QR Code</button>
+
+  </form>
 
 <!-- Write your form here -->
